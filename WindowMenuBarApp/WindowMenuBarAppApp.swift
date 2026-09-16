@@ -10,8 +10,13 @@ import SwiftUI
 @main
 struct WindowMenuBarAppApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra {
             ContentView()
+                //.frame(width: 300, height: 500)
+        } label: {
+            Label("Window Menue Bar App", systemImage: "externaldrive.trianglebadge.exclamationmark")
         }
+        .menuBarExtraStyle(.window)
     }
 }
+
