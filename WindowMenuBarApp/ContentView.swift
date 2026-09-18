@@ -25,9 +25,7 @@ struct ContentView: View {
                 MenuRow(icon: "cursorarrow", title: "Mouse") {
                     print("Ordner öffnen getippt")
                 }
-                MenuRow(icon: "clock.badge.checkmark", title: "Work Time Calculator") {
-                    print("Ordner öffnen getippt")
-                }
+                WorkTimeCalcView()
             }
             .padding(.vertical, 6)
             

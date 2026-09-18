@@ -20,11 +20,11 @@ A lightweight macOS menu bar utility app built with SwiftUI. It groups small eve
 
 ### Main View
 
-![Main View](Screenshots/ManiView.png)
+![Main View](Screenshots/MainView2.png)
 
 ### UNC Converter Subview
 
-![UNC Converter Subview](Screenshots/UncConverterSubView.png)
+![UNC Converter Subview](Screenshots/MenuRow.png)
 
 ## Project Structure
 
